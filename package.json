@@ -1,0 +1,16 @@
+{
+    "name": "chat-system",
+    "version": "1.0.0",
+    "description": "A multi-user chat system using TCP with Node.js",
+    "main": "src/server.js",
+    "scripts": {
+        "server": "node src/server.js",
+        "client": "node src/client.js",
+        "start": "concurrently \"npm run start-server\" \"npm run start-client\""
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
