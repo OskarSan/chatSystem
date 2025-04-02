@@ -12,7 +12,7 @@ user feedback:
 logging:
 - The server logs key events
 
-**scalability** is implemented through the following:
+*scalability* is implemented through the following:
 
 Efficient Client Management:
 - Server uses a Map to manage clients which supports large number of useres without a performance drop
@@ -23,7 +23,7 @@ Broadcasting:
 Modular design:
 - The separation of client and server logic allows independent scaling of each component.
 
-**Failure handling** is implemented like so:
+*Failure handling* is implemented like so:
 
 Error handling in the Server:
 - efficient use of try-catch blocks with informatory error messages
@@ -33,7 +33,7 @@ Error handling in the Client:
 - gracefully closes the interface on disconnection or errors
 
 
-**summary**
+## summary
 
 Transparency: Clear user feedback and logging for both users and developers.
 
