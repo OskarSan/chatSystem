@@ -3,7 +3,8 @@ The functionality is built on top of Node.js's built-in *net* module which provi
 
 ## Transparency, Scalability, failure handling
 
-*Transparency* is achieved through user feedback and logging
+### Transparency 
+is achieved through user feedback and logging
 
 user feedback:
 - The server sends clear messages to users
@@ -12,7 +13,8 @@ user feedback:
 logging:
 - The server logs key events
 
-*scalability* is implemented through the following:
+### scalability 
+is implemented through the following:
 
 Efficient Client Management:
 - Server uses a Map to manage clients which supports large number of useres without a performance drop
@@ -23,7 +25,8 @@ Broadcasting:
 Modular design:
 - The separation of client and server logic allows independent scaling of each component.
 
-*Failure handling* is implemented like so:
+### Failure handling 
+is implemented like so:
 
 Error handling in the Server:
 - efficient use of try-catch blocks with informatory error messages
