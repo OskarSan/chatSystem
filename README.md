@@ -33,7 +33,7 @@ Error handling in the Client:
 - gracefully closes the interface on disconnection or errors
 
 
-## summary
+### summary
 
 Transparency: Clear user feedback and logging for both users and developers.
 
