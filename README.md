@@ -10,9 +10,9 @@ It maintains a Map of connected clients, where the key is the client's nickname,
 When a client connects, the server sends a welcome message asking for a nickname.
 The client provides a nickname, which is validated to ensure uniqueness. If the nickname is already in use, the client is asked to choose another one.
 The server listens for messages from clients:
--Broadcast Messages: Messages are sent to all connected clients except the sender.
--Direct Messages: Messages starting with /dm are sent privately to the specified user.
--Exit Command: If a client sends /exit, the server disconnects the client.
+- Broadcast Messages: Messages are sent to all connected clients except the sender.
+- Direct Messages: Messages starting with /dm are sent privately to the specified user.
+- Exit Command: If a client sends /exit, the server disconnects the client.
 When a client disconnects, the server removes the client from the Map and notifies other users.
 The server handles errors during message processing, broadcasting, and client disconnection to ensure stability.
 
